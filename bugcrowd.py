@@ -40,7 +40,7 @@ def fetch_stats(url,cookie):
 
 def main():
 	parser = argparse.ArgumentParser()
-	parser.add_argument('--session',dest='session',default='',required=False,help='Enter your Bugcrowd _session_id cookie value for fetching private programs data')
+	parser.add_argument('--session',dest='session',default='',required=False,help='Enter your Bugcrowd _crowdcontrol_session cookie value for fetching private programs data')
 	args = parser.parse_args()
 	count = 0
 	urlx = "https://bugcrowd.com/programs?page="
