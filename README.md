@@ -16,3 +16,7 @@ Also supports fetching private program data using the `--session` flag.
 Compare 2 different CSVs to see what has changed.
 
 `daff bugcrowd-2018-06-29.csv bugcrowd-2018-06-30.csv`
+
+Sample output
+
+![Sample Output](/sample-output.png?raw=true "Sample Output after daff'ing")
