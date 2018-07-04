@@ -65,11 +65,10 @@ def main():
 					url = 'https://bugcrowd.com'+href
 					#print url
 					bugcount,avgresp,avgbounty=fetch_stats(url,cookie)
-					programData.append([name,url,bugcount,avgresp,avgbounty])
+					programData.append([name.encode('utf-8'),url.encode('utf-8'),bugcount.encode('utf-8'),avgresp.encode('utf-8'),avgbounty.encode('utf-8')])
 				except Exception as e:
 					pass
 
 
 if __name__ == '__main__':
 	main()
-
